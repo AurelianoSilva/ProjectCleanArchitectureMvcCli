@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\Projetos\\CursoArquitetura\\CleanArchitectureMvcCli\\CleanArchMvc.Infra.WebUI\\CleanArchMvc.Infra.WebUI.csproj",
-      "projectName": "CleanArchMvc.Infra.WebUI",
-      "projectPath": "C:\\Dev\\Projetos\\CursoArquitetura\\CleanArchitectureMvcCli\\CleanArchMvc.Infra.WebUI\\CleanArchMvc.Infra.WebUI.csproj",
+      "projectUniqueName": "C:\\Dev\\Projetos\\CursoArquitetura\\CleanArchitectureMvcCli\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj",
+      "projectName": "CleanArchMvc.WebUI",
+      "projectPath": "C:\\Dev\\Projetos\\CursoArquitetura\\CleanArchitectureMvcCli\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj",
       "packagesPath": "C:\\Users\\Computador\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\Projetos\\CursoArquitetura\\CleanArchitectureMvcCli\\CleanArchMvc.Infra.WebUI\\obj\\",
+      "outputPath": "C:\\Dev\\Projetos\\CursoArquitetura\\CleanArchitectureMvcCli\\CleanArchMvc.WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Computador\\AppData\\Roaming\\NuGet\\NuGet.Config",

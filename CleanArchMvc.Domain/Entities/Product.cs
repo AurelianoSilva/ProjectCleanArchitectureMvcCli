@@ -57,7 +57,6 @@ namespace CleanArchMvc.Domain.Entities
             Price = price;
             Stock = stock;
             Image = image;
-
         }
 
         public int CategoryId { get; set; }

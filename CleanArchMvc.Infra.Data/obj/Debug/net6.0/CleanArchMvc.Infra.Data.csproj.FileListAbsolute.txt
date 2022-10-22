@@ -1,0 +1,15 @@
+C:\Dev\Projetos\CursoArquitetura\CleanArchitectureMvcCli\CleanArchMvc.Infra.Data\bin\Debug\net6.0\CleanArchMvc.Infra.Data.deps.json
+C:\Dev\Projetos\CursoArquitetura\CleanArchitectureMvcCli\CleanArchMvc.Infra.Data\bin\Debug\net6.0\CleanArchMvc.Infra.Data.dll
+C:\Dev\Projetos\CursoArquitetura\CleanArchitectureMvcCli\CleanArchMvc.Infra.Data\bin\Debug\net6.0\CleanArchMvc.Infra.Data.pdb
+C:\Dev\Projetos\CursoArquitetura\CleanArchitectureMvcCli\CleanArchMvc.Infra.Data\bin\Debug\net6.0\CleanArchMvc.Domain.dll
+C:\Dev\Projetos\CursoArquitetura\CleanArchitectureMvcCli\CleanArchMvc.Infra.Data\bin\Debug\net6.0\CleanArchMvc.Domain.pdb
+C:\Dev\Projetos\CursoArquitetura\CleanArchitectureMvcCli\CleanArchMvc.Infra.Data\obj\Debug\net6.0\CleanArchMvc.Infra.Data.csproj.AssemblyReference.cache
+C:\Dev\Projetos\CursoArquitetura\CleanArchitectureMvcCli\CleanArchMvc.Infra.Data\obj\Debug\net6.0\CleanArchMvc.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Projetos\CursoArquitetura\CleanArchitectureMvcCli\CleanArchMvc.Infra.Data\obj\Debug\net6.0\CleanArchMvc.Infra.Data.AssemblyInfoInputs.cache
+C:\Dev\Projetos\CursoArquitetura\CleanArchitectureMvcCli\CleanArchMvc.Infra.Data\obj\Debug\net6.0\CleanArchMvc.Infra.Data.AssemblyInfo.cs
+C:\Dev\Projetos\CursoArquitetura\CleanArchitectureMvcCli\CleanArchMvc.Infra.Data\obj\Debug\net6.0\CleanArchMvc.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Dev\Projetos\CursoArquitetura\CleanArchitectureMvcCli\CleanArchMvc.Infra.Data\obj\Debug\net6.0\CleanArchMvc.Infra.Data.csproj.CopyComplete
+C:\Dev\Projetos\CursoArquitetura\CleanArchitectureMvcCli\CleanArchMvc.Infra.Data\obj\Debug\net6.0\CleanArchMvc.Infra.Data.dll
+C:\Dev\Projetos\CursoArquitetura\CleanArchitectureMvcCli\CleanArchMvc.Infra.Data\obj\Debug\net6.0\refint\CleanArchMvc.Infra.Data.dll
+C:\Dev\Projetos\CursoArquitetura\CleanArchitectureMvcCli\CleanArchMvc.Infra.Data\obj\Debug\net6.0\CleanArchMvc.Infra.Data.pdb
+C:\Dev\Projetos\CursoArquitetura\CleanArchitectureMvcCli\CleanArchMvc.Infra.Data\obj\Debug\net6.0\ref\CleanArchMvc.Infra.Data.dll

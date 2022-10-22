@@ -13,7 +13,7 @@ namespace CleanArchMvc.Domain.Tests.TestsUnit
         {
             Action action = () => new Category(1, "Category Name ");
             action.Should()
-                 .NotThrow<CleanArchMvc.Domain.Validation.DomainExceptionValidation>();
+                 .NotThrow<Validation.DomainExceptionValidation>();
         }
 
         [Fact]
@@ -21,8 +21,8 @@ namespace CleanArchMvc.Domain.Tests.TestsUnit
         {
             Action action = () => new Category(-1, "Category Name ");
             action.Should()
-                .Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>()
-                 .WithMessage("Invalid Id value.");
+                .Throw<Validation.DomainExceptionValidation>()
+                 .WithMessage("Invalid Id value");
         }
 
         [Fact]
@@ -30,7 +30,7 @@ namespace CleanArchMvc.Domain.Tests.TestsUnit
         {
             Action action = () => new Category(1, "Ca");
             action.Should()
-                .Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>()
+                .Throw<Validation.DomainExceptionValidation>()
                    .WithMessage("Invalid name, too short, minimum 3 characters");
         }
 
@@ -39,16 +39,16 @@ namespace CleanArchMvc.Domain.Tests.TestsUnit
         {
             Action action = () => new Category(1, "");
             action.Should()
-                .Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>()
+                .Throw<Validation.DomainExceptionValidation>()
                 .WithMessage("Invalid name.Name is required");
         }
 
         [Fact]
         public void CreateCategory_WithNullNameValue_DomainExceptionInvalidName()
         {
-            Action action = () => new Category(1, null);
+            Action action = () => new Category(1, name: null);
             action.Should()
-                .Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>();
+                .Throw<Validation.DomainExceptionValidation>();
         }
     }
 }

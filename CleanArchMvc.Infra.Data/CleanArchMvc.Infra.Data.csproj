@@ -7,7 +7,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.10">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
+      <PrivateAssets>none</PrivateAssets><!--Alterado de all para none para resolver o problema de referencia ao projeto WebUI-->
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlserver" Version="6.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.10">
@@ -18,7 +18,6 @@
 
   <ItemGroup>
     <Folder Include="Identity\" />
-    <Folder Include="Repositories\" />
   </ItemGroup>
 
   <PropertyGroup>

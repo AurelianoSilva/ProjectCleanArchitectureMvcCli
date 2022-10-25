@@ -1,0 +1,6 @@
+﻿
+-- Instalação do container database SqlServer 2022 ultima versão
+docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Database!2022" --name sqlserver -p 1433:1433 -d mcr.microsoft.com/mssql/server:2022-latest
+
+--String de conexão com database
+"DefaultConnection": "Data Source=localhost, 1433;Initial Catalog=CleanArchDBTeste;Persist Security Info=True;User ID=SA;Password=Database!2022"

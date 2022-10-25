@@ -1,27 +1,14 @@
-var builder = WebApplication.CreateBuilder(args);
+using CleanArchMvc.WebUI;
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+var builder = WebApplication.CreateBuilder(args).UserStartup<Startup>();
 
-var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
+//var builder = WebApplication.CreateBuilder(args);
 
-app.UseHttpsRedirection();
-app.UseStaticFiles();
+//var startup = new Startup(builder.Configuration);
+//startup.ConfigurationService(builder.Services);
 
-app.UseRouting();
+//var app = builder.Build();
 
-app.UseAuthorization();
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-
-app.Run();
+//startup.Configure(app, app.Environment);
+//app.Run();

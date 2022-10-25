@@ -4,3 +4,16 @@
 
 /.vs/CleanArchMvc/v17
 /.vs/CleanArchMvc/DesignTimeBuild
+!*.dll
+/CleanArchMvc.Domain/bin/Debug/net6.0
+/CleanArchMvc.Application/bin/Debug/net6.0
+/CleanArchMvc.Application/obj
+/CleanArchMvc.Domain/obj
+/CleanArchMvc.Domain.Tests/obj
+/CleanArchMvc.Domain.Tests/bin/Debug/net6.0
+/CleanArchMvc.Infra.Data/bin/Debug/net6.0
+/CleanArchMvc.Infra.Data/obj
+/CleanArchMvc.Infra.IoC/bin/Debug/net6.0
+/CleanArchMvc.Infra.IoC/obj
+/CleanArchMvc.WebUI/bin/Debug/net6.0
+/CleanArchMvc.WebUI/obj

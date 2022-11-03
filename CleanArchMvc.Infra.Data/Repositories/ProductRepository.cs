@@ -24,7 +24,12 @@ namespace CleanArchMvc.Infra.Data.Repositories
             return product;
         }
 
-        public async Task<Product> GetByIdAsync(int? id) => await _productContext.Products.FindAsync(id);
+        public async Task<Product> GetByIdAsync(int? id)
+        {
+            //eager loading (carregamento adiantado)
+            return await _productContext.Products.Include(c => c.Category)
+                .SingleOrDefaultAsync(p => p.Id == id);
+        }
 
         /// <summary>
         /// Metodo retona o produto pelo id e a categoria relacionada ao produto.
@@ -32,12 +37,12 @@ namespace CleanArchMvc.Infra.Data.Repositories
         /// </summary>
         /// <param name="id">id do produto</param>
         /// <returns>retorna o produto e a categoria do produto</returns>
-        public async Task<Product> GetProductCategoryAsync(int? id)
-        {
-            //eager loading (carregamento adiantado)
-            return await _productContext.Products.Include(c => c.Category)
-                .SingleOrDefaultAsync(p => p.Id == id);
-        }
+        //public async Task<Product> GetProductCategoryAsync(int? id)
+        //{
+        //    //eager loading (carregamento adiantado)
+        //    return await _productContext.Products.Include(c => c.Category)
+        //        .SingleOrDefaultAsync(p => p.Id == id);
+        //}
 
         public async Task<IEnumerable<Product>> GetProductsAsync() => await _productContext.Products.ToListAsync();
 
